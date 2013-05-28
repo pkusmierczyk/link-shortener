@@ -1,4 +1,5 @@
 class LinksController < ApplicationController
+  before_filter :authenticate_user! , :only => [:new, :edit, :update, :destroy]
   # GET /links
   # GET /links.json
   def index
@@ -24,7 +25,7 @@ class LinksController < ApplicationController
   # GET /links/new
   # GET /links/new.json
   def new
-    @link = Link.new
+    @link = Link.new(:user_id=>current_user.id)
 
     respond_to do |format|
       format.html # new.html.erb
@@ -80,4 +81,9 @@ class LinksController < ApplicationController
       format.json { head :no_content }
     end
   end
+
+  private
+    def check_logged_in
+      user_signed_in?
+    end
 end
