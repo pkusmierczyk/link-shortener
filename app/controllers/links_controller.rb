@@ -1,3 +1,5 @@
+require 'bitly'
+
 class LinksController < ApplicationController
   before_filter :authenticate_user! , :only => [:new, :edit, :update, :destroy]
   # GET /links
@@ -42,6 +44,11 @@ class LinksController < ApplicationController
   # POST /links.json
   def create
     @link = Link.new(params[:link])
+    Bitly.use_api_version_3
+    bitly = Bitly.new('piotrekyeah','R_e20020f8a103fe09564bb18b2408e0b1')
+    page_url = bitly.shorten(@link.long_link).short_url
+
+    @link.short_link = page_url
 
     respond_to do |format|
       if @link.save

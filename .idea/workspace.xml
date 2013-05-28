@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5a6c33c-0e31-4285-87a7-014ab851976b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/links/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/links/_form.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/links/index.html.erb" afterPath="$PROJECT_DIR$/app/views/links/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/link-shortener.iml" afterPath="$PROJECT_DIR$/.idea/link-shortener.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/links_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/links_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/links/show.html.erb" afterPath="$PROJECT_DIR$/app/views/links/show.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -12,11 +15,12 @@
     <file path="/Dummy.txt" changelist="b5a6c33c-0e31-4285-87a7-014ab851976b" time="1369749009219" ignored="false" />
     <file path="/link.rb" changelist="b5a6c33c-0e31-4285-87a7-014ab851976b" time="1369755725859" ignored="false" />
     <file path="/user.rb" changelist="b5a6c33c-0e31-4285-87a7-014ab851976b" time="1369752802935" ignored="false" />
-    <file path="/links_controller.rb" changelist="b5a6c33c-0e31-4285-87a7-014ab851976b" time="1369756552179" ignored="false" />
-    <file path="/index.html.erb" changelist="b5a6c33c-0e31-4285-87a7-014ab851976b" time="1369757043677" ignored="false" />
-    <file path="/_form.html.erb" changelist="b5a6c33c-0e31-4285-87a7-014ab851976b" time="1369752919515" ignored="false" />
+    <file path="/links_controller.rb" changelist="b5a6c33c-0e31-4285-87a7-014ab851976b" time="1369761547081" ignored="false" />
+    <file path="/index.html.erb" changelist="b5a6c33c-0e31-4285-87a7-014ab851976b" time="1369759605293" ignored="false" />
+    <file path="/_form.html.erb" changelist="b5a6c33c-0e31-4285-87a7-014ab851976b" time="1369758886645" ignored="false" />
     <file path="/new.html.erb" changelist="b5a6c33c-0e31-4285-87a7-014ab851976b" time="1369753872476" ignored="false" />
     <file path="/show.html.erb" changelist="b5a6c33c-0e31-4285-87a7-014ab851976b" time="1369756988380" ignored="false" />
+    <file path="/Gemfile" changelist="b5a6c33c-0e31-4285-87a7-014ab851976b" time="1369760829637" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +43,34 @@
       <file leaf-file-name="links_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/links_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="35" selection-start="896" selection-end="896" vertical-scroll-proportion="0.0">
+            <state line="50" column="20" selection-start="1093" selection-end="1093" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="client.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/bitly-0.9.0/lib/bitly/v3/client.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="38" column="10" selection-start="1442" selection-end="1442" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="42" column="10" selection-start="847" selection-end="847" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/links/_form.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="8" selection-start="437" selection-end="437" vertical-scroll-proportion="-10.461538">
               <folding />
             </state>
           </provider>
@@ -54,28 +85,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="show.html.erb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/links/show.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="57" selection-start="171" selection-end="171" vertical-scroll-proportion="0.27517986">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/links/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="12" selection-start="243" selection-end="306" vertical-scroll-proportion="-9.807693">
+            <state line="16" column="27" selection-start="294" selection-end="294" vertical-scroll-proportion="-10.461538">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="link.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/link.rb">
+      <file leaf-file-name="new.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/links/new.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="2" selection-start="34" selection-end="44" vertical-scroll-proportion="0.0">
+            <state line="2" column="17" selection-start="36" selection-end="36" vertical-scroll-proportion="-1.3076923">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="show.html.erb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/links/show.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="8" selection-start="144" selection-end="144" vertical-scroll-proportion="0.317757">
               <folding />
             </state>
           </provider>
@@ -102,9 +133,10 @@
         <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/app/views/links/new.html.erb" />
         <option value="$PROJECT_DIR$/app/models/link.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/links_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/links/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/links/_form.html.erb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/app/controllers/links_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/links/show.html.erb" />
       </list>
     </option>
@@ -526,30 +558,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/links/_form.html.erb">
+    <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="8" selection-start="437" selection-end="437" vertical-scroll-proportion="0.48920864">
+        <state line="42" column="10" selection-start="847" selection-end="847" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/links/new.html.erb">
+    <entry file="file://C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/bitly-0.9.0/lib/bitly/v3/client.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="17" selection-start="36" selection-end="36" vertical-scroll-proportion="0.06115108">
+        <state line="38" column="10" selection-start="1442" selection-end="1442" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/links_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="35" selection-start="896" selection-end="896" vertical-scroll-proportion="0.0">
+        <state line="50" column="20" selection-start="1093" selection-end="1093" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/links/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="12" selection-start="243" selection-end="306" vertical-scroll-proportion="-9.807693">
+        <state line="16" column="27" selection-start="294" selection-end="294" vertical-scroll-proportion="-10.461538">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/links/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="17" selection-start="36" selection-end="36" vertical-scroll-proportion="-1.3076923">
           <folding />
         </state>
       </provider>
@@ -561,9 +600,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/links/_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="8" selection-start="437" selection-end="437" vertical-scroll-proportion="-10.461538">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/links/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="57" selection-start="171" selection-end="171" vertical-scroll-proportion="0.27517986">
+        <state line="10" column="8" selection-start="144" selection-end="144" vertical-scroll-proportion="0.317757">
           <folding />
         </state>
       </provider>
