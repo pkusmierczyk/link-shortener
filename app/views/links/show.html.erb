@@ -7,7 +7,7 @@
 
 <p>
   <b>Short link:</b>
-  <%= @link.short_link %>
+  <%= link_to truncate(@link.long_link, :length => 17), @link.long_link %>
 </p>
 
 
